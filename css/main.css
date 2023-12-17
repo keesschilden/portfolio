@@ -1,0 +1,64 @@
+.introduction-container {
+  display: flex;
+  padding-left: 40px;
+
+  justify-content: space-between;
+}
+
+.front-end {
+  display: block;
+}
+.text {
+  width: 400px;
+  padding-right: 40px;
+  /* background-color: blue; */
+}
+
+.front-end {
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+.hello {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.introduction {
+  font-size: 16px;
+  color: rgb(36, 36, 36);
+}
+
+.text button {
+  margin-top: 40px;
+  font-size: 14px;
+  padding: 10px 15px;
+  margin-right: 20px;
+  border: none;
+}
+
+.text button:hover {
+  opacity: 0.75;
+  transition: 0.15;
+}
+
+.contact-button {
+  background-color: rgb(228, 159, 10);
+  color: black;
+  box-shadow: -5px 5px 0px 0px rgba(0, 0, 0, 1);
+}
+
+.contact-button:active {
+  margin-top: 5px;
+}
+
+.learn-button {
+  background-color: black;
+  color: white;
+}
+
+.image-container img {
+  width: 600px;
+  padding-right: 20px;
+  border-radius: 400px;
+}
