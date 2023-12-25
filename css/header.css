@@ -4,22 +4,19 @@
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;
-  bottom: 0;
-  height: 75px;
+
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  /* background-color: lightblue; */
   font-family: arial;
-  background-color: white;
+  background-color: rgb(254, 243, 223);
+  border-bottom: 1px solid rgb(228, 159, 10);
 }
 
 .left {
-  height: 75;
 }
 .header img {
-  height: 75px;
+  height: 79px;
 }
 
 .middle {
@@ -35,6 +32,7 @@
 
 .technologies {
   color: rgb(228, 159, 10);
+  font-weight: 600;
 }
 
 .right {

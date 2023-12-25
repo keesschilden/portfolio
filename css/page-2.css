@@ -1,0 +1,112 @@
+.page-2 {
+  display: flex;
+  padding-left: 40px;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+  padding: 15px 120px;
+}
+
+.left-side {
+  width: 50%;
+}
+
+.skills {
+  font-size: 70px;
+  font-weight: 700;
+  color: rgb(228, 159, 10);
+  width: 60%;
+}
+
+.intro-2 {
+  color: gray;
+  width: 50%;
+  margin-top: 30px;
+}
+
+.topics {
+  margin-top: 50px;
+}
+
+.topic-1 {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.topics-childs {
+  color: gray;
+}
+
+.triangle {
+  color: rgb(228, 159, 10);
+  margin-right: 10px;
+}
+
+.right-side {
+  width: 50%;
+}
+
+.container-stats {
+  width: 100%;
+  background-color: rgb(182, 181, 181);
+  color: rgb(182, 181, 181);
+  border-radius: 5px;
+}
+
+.stats-front {
+  width: 50%;
+}
+
+.stats-2 {
+  width: 10%;
+}
+
+.stats-3 {
+  width: 80%;
+}
+
+.stats-4 {
+  width: 30%;
+}
+
+.stat-bar {
+  font-size: 7px;
+  margin-top: 10px;
+  background-color: rgb(228, 159, 10);
+  border-radius: 5px;
+  color: rgb(228, 159, 10);
+}
+
+.stat-text {
+  color: white;
+  margin-top: 40px;
+}
+
+.container-box {
+  width: 100%;
+  margin-top: 50px;
+  background-color: rgb(92, 92, 92);
+  color: white;
+  padding: 30px 50px;
+  box-shadow: 0px 0px 14px 0px rgba(59, 59, 59, 0.75);
+}
+
+.container-title {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.school {
+  font-size: 15px;
+}
+
+.date {
+  margin-top: 3px;
+  font-size: 10px;
+}
+
+.info {
+  bottom: 60px;
+  margin-top: 10px;
+}
