@@ -1,6 +1,5 @@
 .page-2 {
   display: flex;
-  padding-left: 40px;
   align-items: center;
   height: 100vh;
   background-color: black;
@@ -107,6 +106,5 @@
 }
 
 .info {
-  bottom: 60px;
   margin-top: 10px;
 }

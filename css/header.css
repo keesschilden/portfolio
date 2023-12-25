@@ -9,12 +9,13 @@
   align-items: center;
   width: 100%;
   font-family: arial;
-  background-color: rgb(254, 243, 223);
+  background-color: white;
   border-bottom: 1px solid rgb(228, 159, 10);
 }
 
 .left {
 }
+
 .header img {
   height: 79px;
 }

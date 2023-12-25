@@ -1,0 +1,64 @@
+.page-1 {
+  height: 100vh;
+  background-color: rgb(254, 243, 223);
+  padding: 110px 220px;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 35px;
+}
+
+.boxes-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.box-1 {
+  padding: 100px 50px;
+  background-color: white;
+  width: 450px;
+  box-shadow: 0px 0px 20px -8px rgba(0, 0, 0, 0.75);
+}
+
+.box-1:hover {
+  background-color: rgba(0, 0, 0, 0.082);
+  cursor: pointer;
+}
+
+.box-1 .triangle:hover {
+  color: rgb(228, 159, 10);
+}
+
+.box-1 img {
+  height: 100px;
+}
+
+.box-title {
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.info {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.triangle {
+  color: rgb(228, 159, 10);
+  padding-right: 10px;
+}
+
+.front-end {
+  background-color: rgb(228, 159, 10);
+  padding: 110px 50px;
+}
+
+.front-end .triangle {
+  color: white;
+}
