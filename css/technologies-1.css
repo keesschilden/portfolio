@@ -9,6 +9,23 @@
   justify-content: center;
   align-items: center;
   font-size: 35px;
+  animation: moveinleft 1s ease-out;
+}
+
+@keyframes moveinleft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+
+  80% {
+    transform: translateX(10px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
 }
 
 .boxes-container {

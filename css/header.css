@@ -1,23 +1,31 @@
 .header {
   display: flex;
-  flex-direction: row;
+  /* height: 70px; */
   position: fixed;
   top: 0;
   right: 0;
-
+  z-index: 100;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   font-family: arial;
-  background-color: white;
+  background-color: #fff;
   border-bottom: 1px solid rgb(228, 159, 10);
+}
+
+.skills-header {
+  background-color: rgba(255, 0, 0, 0);
 }
 
 .left {
 }
 
+.left a {
+  display: flex;
+}
+
 .header img {
-  height: 79px;
+  height: 70px;
 }
 
 .middle {
@@ -25,6 +33,11 @@
   flex-direction: row;
   justify-content: space-between;
   width: 600px;
+}
+
+.skills-link {
+  text-decoration: none;
+  color: black;
 }
 
 .underline {
